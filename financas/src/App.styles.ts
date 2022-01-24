@@ -8,16 +8,18 @@ height:150px;
 text-align:center;
 `;
 
-export const HeaderText = styled.div`
+export const HeaderText = styled.h1`
 margin:0;
 padding:0;
 color: #FFfF;
-padding-top:60px;
+padding-top:30px;
 `;
 
 export const Body = styled.div`
 margin: auto;
 max-width:980px;
-margin-bottom:50px;
+//background-color: red; mostra o corpo da aplicação 
+//min-height: 600px; mostra que ele ocupa o espaço todo 
+margin-bottom:50px;  /* Não deixa ir até o final */
 `;
 
